@@ -1,0 +1,80 @@
+Code Information: 
+
+File Name/Path: https://github.com/AkshataCA9/Assignments
+
+Author: AkshataCA9
+
+Reviewer:
+Name: Ravindran R
+
+Comments : Apprecite your effort in completeing the programs from Week1.
+
+Assignment-PrimitiveDatatype.js
+
+Code Review:
+
+Strengths:
+
+Purpose Fulfillment:
+The code intends to check and log the data types of variables, which is correctly demonstrated.
+
+Usage of typeof:
+The typeof operator is appropriately utilized.
+
+Consistent Syntax:
+The syntax is clear and easy to read
+--------------------------------------------------------------
+
+Suggestions for Improvement:
+
+Typo in Variable Name:
+The last console log references hasPalywright instead of hasPlaywright. Ensure variable names are consistent.
+
+Invalid Percentage Representation:
+The interest variable has an invalid value assignment (12.30%). In JavaScript, percentages need to be expressed as decimals (e.g., 0.123 for 12.30%).
+
+Refined Console Logs:
+Consider using template literals for cleaner and modern syntax.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Review Checklist for Week1 Day1 Assignments:
+
+Code Working Status:
+
+☑ Works as expected except.
+
+Naming:
+☑ Naming convention for JavaScript filenames are NOT followed. 
+
+Comments:
+☑  Comment lines to be added to all the programs which is best practice.
+
+Formatting:
+☑ Coding standards are okay, and looking good.
+
+Functionality:
+☑ Meets requirements specified, Expected output is met.
+
+Best Practices:
+☑ Everything looks good.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+###REVISED CODE###
+
+// Variable Declarations
+let firstName = "Akshata";
+let companyName = 'TechSolutions';
+let mobileNumber = +918618527197; // Assuming the number is formatted for international dialing
+let isAutomation = true;
+let hasPlaywright; // Intentionally undefined for demonstration
+let interest = 0.123; // Representing 12.30% as a decimal
+
+// Logging variable types and values
+console.log(`The datatype of firstName is ${typeof firstName}`);
+console.log(`The datatype of companyName is ${typeof companyName}`);
+console.log(`The datatype of mobileNumber is ${typeof mobileNumber}`);
+console.log(`The datatype of isAutomation is ${typeof isAutomation}`);
+console.log(`The datatype of hasPlaywright is ${typeof hasPlaywright}`);
+console.log(`The datatype of interest is ${typeof interest}`);
